@@ -67,10 +67,10 @@ config :logger,
 # :error_log の設定
 config :logger, :error_log,
   # ログの保存先, ファイル名
-  path: "/var/www/log/error.log",
-      # 対象とするレベル
-        level: :error,
-	  # ログフォーマット
-	    format: "$time $metadata[$level] $message\n",
-	      # メタデータの要素
-	        metadata: [:request_id]
+  path: "/var/log/app/elixir_web_app/error.log",
+  # 対象とするレベル
+  level: :error,
+  # ログフォーマット
+  format: "$time $metadata[$level] $message\n",
+  # メタデータの要素
+  metadata: [:request_id]

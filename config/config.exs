@@ -8,7 +8,7 @@ use Mix.Config
 # Configures the endpoint
 config :web_nodb, WebNodb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "mlwKa3Ips19mVDR63eN2XmDpmm5oJlmVsiN2XtEU06M8/deMvyhLin9PsUencg1n",
+  secret_key_base: "mlwefejfkeiefdsajkefsajlsaKa3Ips19mVDR63eN2XmDpmm5oJlmVsiN2XtEU06M8/deMvyhLin9PsUencg1n",
   render_errors: [view: WebNodb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: WebNodb.PubSub,
            adapter: Phoenix.PubSub.PG2]

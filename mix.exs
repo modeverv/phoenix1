@@ -33,6 +33,7 @@ defmodule WebNodb.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
+     {:logger_file_backend, "~> 0.0.4"},
      {:cowboy, "~> 1.0"}]
   end
 end
